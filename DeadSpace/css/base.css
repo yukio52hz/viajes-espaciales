@@ -1,0 +1,226 @@
+.contaier-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.header-principal .navbar {
+  border-bottom: 1px solid #246DA9;
+}
+
+.sct-tableAll .header-royaleC .nav {
+  border-bottom: none;
+}
+
+.sct-tableAll .header-royaleC .nav-tabs .nav-link {
+  border: none;
+  border-top-left-radius: none;
+  border-top-right-radius: none;
+}
+
+.sct-tableAll .header-royaleC .nav {
+  border-bottom: none;
+}
+
+.sct-tableAll .header-royaleC .nav-tabs .nav-link {
+  border: none;
+  border-top-left-radius: none;
+  border-top-right-radius: none;
+}
+
+.sct-tableAll .header-royaleC a {
+  color: #000;
+}
+
+.sct-tableAll .header-royaleC .nav-tabs .nav-item.show .nav-link,
+.sct-tableAll .header-royaleC .nav-tabs .nav-link.active {
+  color: #000;
+  background-color: transparent;
+  border-color: none;
+  border-bottom: #246DA9 2px solid;
+}
+
+.sct-tableAll .body-royaleC .astro-one {
+  background-image: url("../img/astronaut-11080_1920.jpg");
+  height: 77vh;
+  background-size: cover;
+}
+
+.sct-tableAll .body-royaleC .astro-three {
+  background-image: url("../img/astronaut-4106766_1920.jpg");
+  background-position: center;
+  height: 77vh;
+  background-size: cover;
+}
+
+.sct-tableAll .body-royaleC .astro-two {
+  background-image: url("../img/fondo.jpg");
+  height: 77vh;
+  background-size: cover;
+}
+
+.sct-tableAll .body-royaleC .astro-two .filter {
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  background-color: black;
+}
+
+.sct-tableAll .body-royaleC .astro-three {
+  background-image: url("../img/astronaut-4106766_1920.jpg");
+  background-position: center;
+  height: 77vh;
+  background-size: cover;
+}
+
+.sct-tableAll .body-royaleC .astro-four {
+  background-image: url("../img/end.jpeg");
+  background-position: center;
+  height: 77vh;
+  background-size: cover;
+}
+
+.sct-tableAll .banner-movil {
+  width: 30vw;
+  height: 200px;
+}
+
+.sct-tableAll .box-table {
+  height: 85.2vh;
+  overflow-y: scroll;
+}
+
+footer {
+  background: #000;
+}
+
+.secret {
+  display: none;
+}
+
+.error {
+  border-color: red;
+}
+
+.form-styleOne {
+  background-image: url(../img/fondo.jpg);
+  height: 92vh;
+}
+
+.form-styleOne .form-style {
+  background: #000;
+  border-radius: 10px;
+  color: white;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.form-styleOne .form-style button {
+  background-color: #0652DD;
+  color: white;
+  opacity: 0.9;
+  border-radius: 10px;
+  border: none;
+}
+
+.form-styleOne .form-style .btn-destination {
+  background-color: white;
+  color: #000;
+}
+
+.button-tables {
+  background-color: #0652DD;
+  color: white;
+  opacity: 0.9;
+  border-radius: 5px;
+  border: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.background-one {
+  background-image: url("../img/milky-way-2675322_1920.jpg");
+}
+
+#sct-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 75vh;
+}
+
+#sct-cards .card {
+  border: 1px solid #000;
+  width: 30%;
+  border-radius: 10px;
+  background-color: #000;
+  opacity: 0.9;
+  color: #fff;
+}
+
+#sct-cards .card .pics {
+  height: 240px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#sct-cards .card .pics img {
+  width: 240px;
+}
+
+#sct-cards .card .title-name {
+  text-align: center;
+  border-radius: 10px;
+}
+
+#sct-cards .card .text {
+  padding: 0 40px 0 40px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #sct-cards {
+    height: 100vh;
+  }
+  #sct-cards .card {
+    border: 1px solid #000;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #000;
+    opacity: 0.9;
+    color: #fff;
+  }
+  #sct-cards .card .pics {
+    height: 240px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #sct-cards .card .pics img {
+    width: 240px;
+  }
+  #sct-cards .card .title-name {
+    text-align: center;
+    border-radius: 10px;
+  }
+  #sct-cards .card .text {
+    padding: 0 40px 0 40px;
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=base.css.map */

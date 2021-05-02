@@ -1,0 +1,87 @@
+.contaier-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.header-principal {
+    .navbar {
+        border-bottom: 1px solid #246DA9;
+    }
+}
+
+@mixin img-back {
+    height: 77vh;
+    background-size: cover;
+}
+
+.sct-tableAll {
+    .header-royaleC {
+        .nav {
+            border-bottom: none;
+        }
+        .nav-tabs .nav-link {
+            border: none;
+            border-top-left-radius: none;
+            border-top-right-radius: none;
+        }
+        .nav {
+            border-bottom: none;
+        }
+        .nav-tabs .nav-link {
+            border: none;
+            border-top-left-radius: none;
+            border-top-right-radius: none;
+        }
+        a {
+            color: #000;
+        }
+        .nav-tabs .nav-item.show .nav-link,
+        .nav-tabs .nav-link.active {
+            color: #000;
+            background-color: transparent;
+            border-color: none;
+            border-bottom: #246DA9 2px solid;
+        }
+    }
+    .body-royaleC {
+        .astro-one {
+            background-image: url('../img/astronaut-11080_1920.jpg');
+            @include img-back();
+        }
+        .astro-three {
+            background-image: url('../img/astronaut-4106766_1920.jpg');
+            background-position: center;
+            @include img-back();
+        }
+        .astro-two {
+            background-image: url('../img/fondo.jpg');
+            .filter {
+                backdrop-filter: blur(20px);
+                background-color: rgb(0, 0, 0);
+            }
+            @include img-back();
+        }
+        .astro-three {
+            background-image: url('../img/astronaut-4106766_1920.jpg');
+            background-position: center;
+            @include img-back();
+        }
+        .astro-four {
+            background-image: url('../img/end.jpeg');
+            background-position: center;
+            @include img-back();
+        }
+    }
+    .banner-movil {
+        width: 30vw;
+        height: 200px;
+    }
+    .box-table {
+        height: 85.2vh;
+        overflow-y: scroll;
+    }
+}
+
+footer {
+    background: #000;
+}

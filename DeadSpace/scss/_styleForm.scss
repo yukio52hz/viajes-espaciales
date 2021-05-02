@@ -1,0 +1,46 @@
+.secret {
+    display: none;
+}
+
+.error {
+    border-color: red;
+}
+
+@mixin img-background_form {
+    background-image: url('../img/fondo.jpg');
+}
+
+@mixin form {
+    background: #000;
+    border-radius: 10px;
+    color: white;
+    opacity: 0.9;
+    text-align: center;
+    button {
+        background-color: #0652DD;
+        color: white;
+        opacity: 0.9;
+        border-radius: 10px;
+        border: none;
+    }
+    .btn-destination {
+        background-color: white;
+        color: #000;
+    }
+}
+
+.form-styleOne {
+    @include img-background_form();
+    height: 92vh;
+    .form-style {
+        @include form();
+    }
+}
+
+.button-tables {
+    background-color: #0652DD;
+    color: white;
+    opacity: 0.9;
+    border-radius: 5px;
+    border: none;
+}

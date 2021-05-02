@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/base.css">
+    <title>Inicio</title>
+</head>
+
+<body class="prueba">
+    <header class="header-principal">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Dead Space</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href=""></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=""></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Registros
+              </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="vistas/formCelestialBodys.html">Cuerpos Celestes</a>
+                            <a class="dropdown-item" href="vistas/formSpaceprogram.html">Programa Espacial</a>
+                            <a class="dropdown-item" href="vistas/slt_program.html">Misiones</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Listas
+              </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="vistas/list_celestialBodys.html">Cuerpos Celestes</a>
+                            <a class="dropdown-item" href="vistas/list_programs.html">Programas</a>
+                            <!--<div class="dropdown-divider"></div>-->
+                            <a class="dropdown-item" href="vistas/list_missions.html">Misiones</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 pr-3 d-none d-md-block d-lg-block">
+                    <select class="form-control-md" id="slt-cbody">
+                        <option value="">Todos...</option>
+                        <option value="Planeta">Planetas</option>
+                        <option value="Estrella">Estrellas</option>
+                        <option value="Satélite">Satélites</option>
+                        <option value="Programa Espacial">Programa Espacial</option>
+                        <option value="Misión">Misiones</option>
+                    </select>
+                </form>
+                <form class="form-inline my-2 my-lg-0 pr-3 d-none d-md-block d-lg-block">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar por nombre" id="txt-search">
+                </form>
+            </div>
+        </nav>
+    </header>
+    <section class="container-fluid sct-tableAll d-flex flex-column flex-lg-row ">
+        <div class="col-lg-6  d-none d-md-block d-lg-block">
+            <header class="header-royaleC">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Proyecto</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Detalles del Proyecto</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Integrantes</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#end" role="tab" aria-controls="contact" aria-selected="false">END</a>
+                    </li>
+                </ul>
+            </header>
+            <div class="body-royaleC">
+                <div class="tab-content" id="myTabContent">
+                    <div class="astro-one tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    </div>
+                    <div class="tab-pane astro-two fade text-center text-light pt-5" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="filter">
+                            <h2>Un grupo de científicos</h2>
+                            <p>Le ha solicitado que realice una aplicación que permita tener la información de los planetas o cuerpos celestes de los que se tiene conocimiento.</p>
+                            <p>Dentro de las funcionalidades debe tener la de registrar un cuerpo celeste, para ello primero se debe seleccionar si el cuerpo celeste es una estrella, planeta o satélite.</p>
+                            <p>Los científicos además buscan mantener una bitácora de las misiones realizadas a diferentes lugares del universo para eso se debe entender que un conjunto de misiones hacen parte de un programa espacial.Por lo tantotamnien
+                                debe almacenarce la información de los programas y misiones.</p>
+                            <p class="text-left pl-2">Para elaborar el proyecto se utilizo css,html,bootstrap y js<i class="fas fa-ice-cream text-warning pl-1"></i></p>
+                            <p class="text-left"><span class="text-danger">Nota:</span> El proyecto funciona con localStorage asi que si los datos no cargan,refresque la página</p>
+                        </div>
+                    </div>
+                    <div class="tab-pane astro-three fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="d-flex text-white align-items-center flex-column pt-5">
+                            <h3>Integrantes</h3>
+                            <p>Farid Gamboa</p>
+                        </div>
+                    </div>
+                    <div class="tab-pane astro-four fade" id="end" role="tabpanel" aria-labelledby="contact-tab">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 d-lg-none d-md-none d-sm-block">
+            <h2 class="text-center pt-2">Proyecto de Programación web</h2>
+            <img src="img/astronaut-11080_1920.jpg" alt="..." class="img-thumbnail">
+            <div>
+                <h3>Detalles del proyecto</h3>
+                <p>Un grupo de científicos le ha solicitado que realice una aplicación que permita tener la información de los planetas o cuerpos celestes de los que se tiene conocimiento. Dentro de las funcionalidades debe tener la de registrar un cuerpo
+                    celeste, para ello primero se debe seleccionar si el cuerpo celeste es una estrella, planeta o satélite. Tanto una estrella como satélite o planetas son considerados cuerpos celestes.</p>
+                <p>Tambien que se puenda almacenar la información de los programas espaciales y misiones</p>
+                <p><span class="text-danger">Nota:</span> El proyecto funciona con localStorage asi que si algo no se vizualiza bien refresque la página</p>
+            </div>
+        </div>
+        <div class="box-table col-lg-6">
+            <h2>Elementos Registrados</h2>
+            <small class="d-none d-md-block d-lg-block" class="form-text text-muted">Haz click sobre el elemento para ver más información</small>
+            <small class="d-lg-none d-md-none d-sm-block" class="form-text text-muted">Toca el nombre del elemento para ver mas información</small>
+            <table class="table table-bordered col-lg-12">
+                <thead>
+                    <th>Tipo</th>
+                    <th>Nombre</th>
+                </thead>
+                <tbody id="t-body">
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <footer class="container-fluid text-white">
+        <div class="row">
+            <div class="col-12 d-none d-md-block d-lg-block">
+                <p class="text-center"><i class="far fa-copyright pr-1"></i>Proyecto de fundamentos de programación web,universidad Cenfotec ubicada en Costa Rica</p>
+            </div>
+            <div class="col-12 d-lg-none d-md-none d-sm-block">
+                <p class="text-center"><i class="far fa-copyright pr-1"></i>Farid Gamboa</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/4fca3f5832.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="js/celestial_bodyService.js"></script>
+    <script src="js/json_celestialBodys.js"></script>
+    <script src="js/json_spacialPrograms.js"></script>
+    <script src="js/listOne_for_all.js"></script>
+    <script src="js/listPrincipal_all_for_one.js"></script>
+</body>
+
+</html>
